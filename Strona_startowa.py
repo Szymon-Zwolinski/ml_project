@@ -12,3 +12,5 @@ st.write("""
     
     W menu po lewej stronie możesz wybrać różne strony, aby dowiedzieć się więcej o poszczególnych metodach oraz zobaczyć ich praktyczne zastosowania.
     """)
+
+st.write('TEST')
