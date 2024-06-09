@@ -11,3 +11,8 @@ st.write("""
     
     W menu po lewej stronie możesz wybrać różne strony, aby dowiedzieć się więcej o poszczególnych metodach oraz zobaczyć ich praktyczne zastosowania.
     """)
+
+tab1, tab2, tab3 = st.tabs(['Weight of evidence','TAB2', 'TAB3'])
+
+with tab1:
+    from nauka.metodyScoringowe import woe
